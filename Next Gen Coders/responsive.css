@@ -1,0 +1,106 @@
+/* ==============================
+   CloudMe — responsive.css
+   Mobile and tablet styles
+   ============================== */
+
+/* ===== Tablet (max-width: 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  section {
+    padding: 60px 30px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .country-hero h1 {
+    font-size: 50px;
+  }
+}
+
+/* ===== Mobile (max-width: 768px) ===== */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .country-hero h1 {
+    font-size: 40px;
+  }
+
+  .country-hero p {
+    font-size: 18px;
+  }
+
+  .page-hero h1 {
+    font-size: 36px;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .stat-number {
+    font-size: 38px;
+  }
+
+  .similarities-intro {
+    font-size: 18px;
+  }
+}
+
+/* ===== Small Mobile (max-width: 480px) ===== */
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .country-hero h1 {
+    font-size: 32px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .countries-grid,
+  .info-grid,
+  .phrases-grid,
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+}
